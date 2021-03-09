@@ -64,12 +64,16 @@ cin>>b>>a;
         cout<<"Try again!"<<endl;
         }
          if(Score<=0){
+				cout<<"\n";
                 cout<<"Game Over!"<<endl;
                     }
 
 }
+cout<<"\n";
 cout<<"Congratulations!"<<endl;
+cout<<"\n";
 cout<<"You reach Level 2!"<<endl;
+cout<<"\n";
 cout<<"Now you must choose between 1/2 for Left or Right and between 4/5 for Up or Down!"<<endl;
 
 while(Score<=19 && Score>=0){
@@ -85,20 +89,25 @@ cin>>b>>a;
                         cout<<"Your Score is: " <<Score<<endl;
                     }
                     else {
+						cout<<"\n";
                         cout<<"You Scored a goal!"<<endl;
                         Score+=2;
                         cout<<"Your Score is: " <<Score<<endl;
                         }
                                             }
                 else {
+				cout<<"\n";
                 cout<<"You must choose between 1/2 for Left or Right and between 4 / 5 for Down or Up!"<<endl;
+				cout<<"\n";
                 cout<<"Try again!"<<endl;
 
                     }
                          }
-
+						cout<<"\n";
                         cout<<"Congratulations!"<<endl;
+						cout<<"\n";
                         cout<<"You reach level 3!"<<endl;
+						cout<<"\n";
                         cout<<"Now you must choose between 1/2 for Left or Right!"<<endl;
 
                         while(Score<=35 && Score>=0){
@@ -127,11 +136,16 @@ cin>>b>>a;
                                 cout<<"Try again!"<<endl;
                                 }}
                                 if(Score>=35){
+									cout<<"\n";
                                     cout<<"Congratulations!"<<endl;
+									cout<<"/n";
                                     cout<<"You finished the game!"<<endl;
+									
                                 }
                                 if(Score<=0){
                                     cout<<"Game Over!"<<endl;
+									cout<<"\n";
+									cout<<"Now you can try again! Good Luck! ;)";
                                     }
 
 
